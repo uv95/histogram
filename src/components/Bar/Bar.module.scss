@@ -1,0 +1,31 @@
+.barContainer {
+    position: relative;
+}
+
+.bar {
+    background-color: var(--color-blue);
+    width: 16px;
+    min-height: 1px;
+    border-radius: 4px;
+    transition: box-shadow 0.15s ease-out, height 1s, opacity 0.5s;
+}
+
+.bar:hover{
+    box-shadow: 0px 0px 8px 6px #000AFF26;
+}
+
+.value{
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--color-green);
+    height: 28px;
+    padding: 2px 8px;
+    border-radius: 6px;
+    z-index: 1;
+
+    transition: opacity 0.15s;
+}

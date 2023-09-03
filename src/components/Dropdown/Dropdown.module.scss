@@ -1,0 +1,46 @@
+.dropdown {
+    position: relative;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 28px;
+    margin-left: auto;
+}
+
+.dropdown, .options {
+    width: 380px;
+    border-radius: 28px;
+    border: 2px solid var(--color-blue);
+}
+
+.button {
+    cursor: default;
+    height: 48px;
+    padding: 9px 17px 9px 21px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: color 0.15s;
+}
+
+.button p:hover, .options p:hover  {
+    color: var(--color-blue)
+}
+
+.button img {
+    cursor: pointer;
+    transition: transform 0.15s;
+}
+
+.options {
+    background-color: #fff;
+    padding: 21px 20px;
+    position: absolute;
+    top: 48px;
+    left: -2px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: all 0.15s;
+}
+
