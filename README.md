@@ -1,6 +1,7 @@
 ## Histogram Component
 
-![histogram](https://github.com/uv95/histogram/assets/104245869/cb4d326c-582d-4a91-95cc-31281cb3cf2e)
+![histogram](https://github.com/uv95/histogram/assets/104245869/28b54921-159d-4e6c-8c1c-275d56e26522)
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
