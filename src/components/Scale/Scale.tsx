@@ -9,7 +9,7 @@ export const Scale = ({intervalsArray}: ScaleProps) => {
     return (
         <div className={style.scale}>
             {intervalsArray.slice().reverse().map((value) => (
-                <p key={value}>{value}</p>
+                <p key={value}>{value.toLocaleString('ru-RU')}</p>
             ))}
         </div>
     );
